@@ -1,0 +1,49 @@
+# python white_box.py --smp_flie=iid_test_DPRSA_F_iid_white_box_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_iid_white_box_client0_round300.pth.tar --server_model_file=iid_test_DPRSA_F_iid_white_box_300.pth.tar --client_id=0
+# python white_box.py --smp_flie=iid_test_DPRSA_F_iid_white_box_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_iid_white_box_client1_round300.pth.tar --server_model_file=iid_test_DPRSA_F_iid_white_box_300.pth.tar --client_id=1
+# python white_box.py --smp_flie=iid_test_DPRSA_F_iid_white_box_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_iid_white_box_client2_round300.pth.tar --server_model_file=iid_test_DPRSA_F_iid_white_box_300.pth.tar --client_id=2
+# python white_box.py --smp_flie=iid_test_DPRSA_F_iid_white_box_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_iid_white_box_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_F_iid_white_box_300.pth.tar --client_id=3 --attack_server=True
+
+# python white_box.py --smp_flie=iid_test_DPRSA_G_iid_white_box_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_iid_white_box_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_G_iid_white_box_300.pth.tar --client_id=0
+# python white_box.py --smp_flie=iid_test_DPRSA_G_iid_white_box_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_iid_white_box_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_G_iid_white_box_300.pth.tar --client_id=1
+# python white_box.py --smp_flie=iid_test_DPRSA_G_iid_white_box_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_iid_white_box_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_G_iid_white_box_300.pth.tar --client_id=2
+# python white_box.py --smp_flie=iid_test_DPRSA_G_iid_white_box_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_iid_white_box_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_G_iid_white_box_300.pth.tar --client_id=3 --attack_server=True
+
+# python white_box.py --smp_flie=iid_test_DPRSA_F_iid_white_box_2_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_iid_white_box_2_client0_round300.pth.tar --server_model_file=iid_test_DPRSA_F_iid_white_box_2_300.pth.tar --client_id=0
+# python white_box.py --smp_flie=iid_test_DPRSA_F_iid_white_box_2_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_iid_white_box_2_client1_round300.pth.tar --server_model_file=iid_test_DPRSA_F_iid_white_box_2_300.pth.tar --client_id=1
+# python white_box.py --smp_flie=iid_test_DPRSA_F_iid_white_box_2_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_iid_white_box_2_client2_round300.pth.tar --server_model_file=iid_test_DPRSA_F_iid_white_box_2_300.pth.tar --client_id=2
+# python white_box.py --smp_flie=iid_test_DPRSA_F_iid_white_box_2_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_iid_white_box_2_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_F_iid_white_box_2_300.pth.tar --client_id=3 --attack_server=True
+
+# python white_box.py --smp_flie=iid_test_DPRSA_G_iid_white_box_2_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_iid_white_box_2_client0_round300.pth.tar --server_model_file=iid_test_DPRSA_G_iid_white_box_2_300.pth.tar --client_id=0
+# python white_box.py --smp_flie=iid_test_DPRSA_G_iid_white_box_2_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_iid_white_box_2_client1_round300.pth.tar --server_model_file=iid_test_DPRSA_G_iid_white_box_2_300.pth.tar --client_id=1
+# python white_box.py --smp_flie=iid_test_DPRSA_G_iid_white_box_2_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_iid_white_box_2_client2_round300.pth.tar --server_model_file=iid_test_DPRSA_G_iid_white_box_2_300.pth.tar --client_id=2
+# python white_box.py --smp_flie=iid_test_DPRSA_G_iid_white_box_2_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_iid_white_box_2_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_G_iid_white_box_2_300.pth.tar --client_id=3 --attack_server=True
+
+# python white_box_mnist.py --smp_flie=iid_test_DPRSA_F_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_MNIST_client0_round300.pth.tar --server_model_file=iid_test_DPRSA_F_MNIST_300.pth.tar  --client_id=0
+# python white_box_mnist.py --smp_flie=iid_test_DPRSA_F_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_MNIST_client1_round300.pth.tar --server_model_file=iid_test_DPRSA_F_MNIST_300.pth.tar  --client_id=1
+# python white_box_mnist.py --smp_flie=iid_test_DPRSA_F_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_MNIST_client2_round300.pth.tar --server_model_file=iid_test_DPRSA_F_MNIST_300.pth.tar  --client_id=2
+# python white_box_mnist.py --smp_flie=iid_test_DPRSA_F_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_MNIST_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_F_MNIST_300.pth.tar  --client_id=3 --attack_server=True
+
+# python white_box_mnist.py --smp_flie=iid_test_DPRSA_G_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_MNIST_client0_round300.pth.tar --server_model_file=iid_test_DPRSA_G_MNIST_300.pth.tar  --client_id=0
+# python white_box_mnist.py --smp_flie=iid_test_DPRSA_G_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_MNIST_client1_round300.pth.tar --server_model_file=iid_test_DPRSA_G_MNIST_300.pth.tar  --client_id=1
+# python white_box_mnist.py --smp_flie=iid_test_DPRSA_G_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_MNIST_client2_round300.pth.tar --server_model_file=iid_test_DPRSA_G_MNIST_300.pth.tar  --client_id=2
+# python white_box_mnist.py --smp_flie=iid_test_DPRSA_G_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_MNIST_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_G_MNIST_300.pth.tar  --client_id=3 --attack_server=True
+
+# python white_box_fmnist.py --smp_flie=iid_test_DPRSA_F_FMNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_FMNIST_client0_round300.pth.tar --server_model_file=iid_test_DPRSA_F_FMNIST_300.pth.tar  --client_id=0
+# python white_box_fmnist.py --smp_flie=iid_test_DPRSA_F_FMNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_FMNIST_client1_round300.pth.tar --server_model_file=iid_test_DPRSA_F_FMNIST_300.pth.tar  --client_id=1
+# python white_box_fmnist.py --smp_flie=iid_test_DPRSA_F_FMNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_FMNIST_client2_round300.pth.tar --server_model_file=iid_test_DPRSA_F_FMNIST_300.pth.tar  --client_id=2
+# python white_box_fmnist.py --smp_flie=iid_test_DPRSA_F_FMNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_FMNIST_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_F_FMNIST_300.pth.tar  --client_id=3 --attack_server=True
+
+# python white_box_fmnist.py --smp_flie=iid_test_DPRSA_G_FMNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_FMNIST_client0_round300.pth.tar --server_model_file=iid_test_DPRSA_G_FMNIST_300.pth.tar  --client_id=0
+# python white_box_fmnist.py --smp_flie=iid_test_DPRSA_G_FMNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_FMNIST_client1_round300.pth.tar --server_model_file=iid_test_DPRSA_G_FMNIST_300.pth.tar  --client_id=1
+# python white_box_fmnist.py --smp_flie=iid_test_DPRSA_G_FMNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_FMNIST_client2_round300.pth.tar --server_model_file=iid_test_DPRSA_G_FMNIST_300.pth.tar  --client_id=2
+# python white_box_fmnist.py --smp_flie=iid_test_DPRSA_G_FMNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_FMNIST_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_G_FMNIST_300.pth.tar  --client_id=3 --attack_server=True
+
+python white_box_mnist.py --smp_flie=iid_test_DPRSA_F_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_MNIST_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_F_MNIST_300.pth.tar  --client_id=0 --attack_server=True --attack_server_only=True
+python white_box_mnist.py --smp_flie=iid_test_DPRSA_F_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_MNIST_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_F_MNIST_300.pth.tar  --client_id=1 --attack_server=True --attack_server_only=True
+python white_box_mnist.py --smp_flie=iid_test_DPRSA_F_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_MNIST_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_F_MNIST_300.pth.tar  --client_id=2 --attack_server=True --attack_server_only=True
+python white_box_mnist.py --smp_flie=iid_test_DPRSA_F_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_F_MNIST_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_F_MNIST_300.pth.tar  --client_id=3 --attack_server=True --attack_server_only=True
+
+python white_box_mnist.py --smp_flie=iid_test_DPRSA_G_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_MNIST_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_G_MNIST_300.pth.tar  --client_id=0 --attack_server=True --attack_server_only=True
+python white_box_mnist.py --smp_flie=iid_test_DPRSA_G_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_MNIST_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_G_MNIST_300.pth.tar  --client_id=1 --attack_server=True --attack_server_only=True
+python white_box_mnist.py --smp_flie=iid_test_DPRSA_G_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_MNIST_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_G_MNIST_300.pth.tar  --client_id=2 --attack_server=True --attack_server_only=True
+python white_box_mnist.py --smp_flie=iid_test_DPRSA_G_MNIST_client_samp_idxs.pkl --client_model_file=iid_test_DPRSA_G_MNIST_client3_round300.pth.tar --server_model_file=iid_test_DPRSA_G_MNIST_300.pth.tar  --client_id=3 --attack_server=True --attack_server_only=True

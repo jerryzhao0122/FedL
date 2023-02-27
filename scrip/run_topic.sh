@@ -1,0 +1,10 @@
+python FL_robust.py --round=200 --client_ep=15 --data_distributed=iid --update_type=direction --dataset=cifar10 --client_bs=1024 --client_lr=0.1 --model=lanet --sign=True --sign_alpha=0.0005 --name=topic_R_sign_replace_iid_10 --attack=True --attack_type=replace --attack_num=12 --attack_replace_round=150
+python FL_robust.py --round=200 --client_ep=15 --data_distributed=iid --update_type=direction --dataset=cifar10 --client_bs=1024 --client_lr=0.1 --model=lanet --sign=True --sign_alpha=0.0005 --name=topic_R_sign_labelflip_iid_10 --attack=True --attack_type=label --attack_num=10
+python FL_robust.py --round=200 --client_ep=15 --data_distributed=iid --update_type=direction --dataset=cifar10 --client_bs=1024 --client_lr=0.1 --model=lanet --sign=True --sign_alpha=0.0005 --name=topic_R_sign_pixel_iid_10 --attack=True --attack_type=pixel --attack_num=10
+
+python FL_robust.py --round=200 --client_ep=15 --data_distributed=noniid --update_type=direction --dataset=cifar10 --client_bs=1024 --client_lr=0.1 --model=lanet --sign=True --sign_alpha=0.0005 --name=topic_R_sign_replace_noniid_10 --attack=True --attack_type=replace --attack_num=12 --attack_replace_round=150
+python FL_robust.py --round=200 --client_ep=15 --data_distributed=noniid --update_type=direction --dataset=cifar10 --client_bs=1024 --client_lr=0.1 --model=lanet --sign=True --sign_alpha=0.0005 --name=topic_R_sign_labelflip_noniid_10 --attack=True --attack_type=label --attack_num=10
+python FL_robust.py --round=200 --client_ep=15 --data_distributed=noniid --update_type=direction --dataset=cifar10 --client_bs=1024 --client_lr=0.1 --model=lanet --sign=True --sign_alpha=0.0005 --name=topic_R_sign_pixel_noniid_10 --attack=True --attack_type=pixel --attack_num=10
+
+# 使用l2
+python FL_robust.py --round=200 --client_ep=15 --data_distributed=iid --update_type=direction --dataset=cifar10 --client_bs=1024 --client_lr=0.1 --model=lanet --sign=True --sign_alpha=0.0005 --name=topic_R_mipc_l2_replace_iid_10 --attack=True --attack_type=replace --attack_num=10 --attack_replace_round=150 --robust_agg=True --robust_agg_type=mipc --ad_dist=l2
